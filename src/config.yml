@@ -1,0 +1,20 @@
+games:  ['breakout'] # alien, 'asterix','breakout','frostbite',riverraid
+subjects: ['JD']
+b_alert_subjects: ['0068']
+raw_data_path: /media/josephdistefano/DataBase/joseph_data/atarimind/data/raw/
+processed_data_path: /media/josephdistefano/DataBase/joseph_data/atarimind/data/processed/
+raw_edf_path: /media/josephdistefano/DataBase/joseph_data/atarimind/data/raw_edfs/
+extracted_eye_features_data_path: /media/josephdistefano/DataBase/joseph_data/atarimind/data/processed/
+extracted_game_features_data_path: /media/josephdistefano/DataBase/joseph_data/atarimind/data/processed/
+extracted_frames_data_path: /media/josephdistefano/DataBase/joseph_data/atarimind/data/processed/
+game_frame_with_eye_movement_action_shift_path: /media/josephdistefano/DataBase/joseph_data/atarimind/data/processed/game_frame_with_eye_movement_action_shift.p
+EEG_labels: []
+screen_size: [1920,1080]
+atari_size:  [480,630]
+header_list_all_data_per_frame: ['time_stamps_game','time_stamp_in_seconds','action','shift','time_stamps_eye','eye_x_pos','eye_y_pos','ProbDistraction','ProbLowEng','ProbHighEng','ProbAveWorkload','objects_x_start','objects_y_start','objects_width','objects_height','objects_centroid_x','objects_centroid_y','objects_area']
+
+##################### CCL cropping parameters
+breakout_crop_x : 93
+breakout_crop_y: 8 
+breakout_score_area: [0,0,159,18]
+breakout_static_object: [0,56,159,36]
