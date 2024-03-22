@@ -31,8 +31,6 @@ with skip_run("run", "Epoch game data, eye data, and eeg data per frame") as che
 with skip_run("skip", "visualize data") as check, check():
     visualize_all_data(config)
 
-print("test")
-
 
 ## number of windows 
 ## distance between top two
